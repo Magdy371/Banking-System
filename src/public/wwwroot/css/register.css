@@ -1,0 +1,90 @@
+body {
+            background: #f2f2f2;
+            font-family: Roboto, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background: #fff;
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 32px 40px 40px 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(60,64,67,.15);
+        }
+        .google-logo {
+            display: block;
+            margin: 0 auto 24px auto;
+            width: 75px;
+        }
+        h2 {
+            font-weight: 400;
+            margin-bottom: 8px;
+            font-size: 24px;
+            color: #202124;
+        }
+        p {
+            color: #5f6368;
+            font-size: 16px;
+            margin-bottom: 24px;
+        }
+        .form-group {
+            margin-bottom: 18px;
+        }
+        label {
+            display: block;
+            font-size: 14px;
+            color: #5f6368;
+            margin-bottom: 4px;
+        }
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #dadce0;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background: #f8f9fa;
+            margin-bottom: 2px;
+        }
+        .name-fields {
+            display: flex;
+            gap: 8px;
+        }
+        .name-fields input {
+            flex: 1;
+        }
+        .form-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 24px;
+        }
+        .btn {
+            background: #1a73e8;
+            color: #fff;
+            border: none;
+            padding: 10px 24px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background: #1765c1;
+        }
+        .signin-link {
+            color: #1a73e8;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .signin-link:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 32px;
+            color: #5f6368;
+            font-size: 13px;
+        }

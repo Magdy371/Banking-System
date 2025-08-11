@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "firstName": "Magdy",
+    "lastName": "Elshrief",
+    "userName": "magdyelshrief37@gmail.com",
+    "password": "$2b$10$7JYFjVcWEs2R7mfxhmfKb.zXgujHbcg5QeND0x9MjTnDYZljUgLvW"
+  },
+  {
+    "id": 2,
+    "firstName": "Mohamed",
+    "lastName": "Gaber",
+    "userName": "magdyelshrief@gmail.com",
+    "password": "$2b$10$Shu7BJtx7bEDgKvg/3jAzuV0eG1Brn74lemIHrmdd1ELnoO47/yrm"
+  }
+]

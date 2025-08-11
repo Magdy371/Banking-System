@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank System</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background: #f4f6fb;
+            color: #222;
+        }
+        header {
+            background: #1a237e;
+            color: #fff;
+            padding: 30px 0 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(26,35,126,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 18px;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #ffd600;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 24px rgba(26,35,126,0.08);
+            padding: 40px 30px;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        .feature {
+            flex: 1 1 250px;
+            background: #f0f3fa;
+            border-radius: 8px;
+            padding: 25px 20px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(26,35,126,0.05);
+        }
+        .feature h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #1a237e;
+        }
+        .feature p {
+            color: #444;
+            font-size: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 18px 0;
+            background: #1a237e;
+            color: #fff;
+            margin-top: 40px;
+            font-size: 0.95rem;
+        }
+        @media (max-width: 700px) {
+            .features {
+                flex-direction: column;
+                gap: 18px;
+            }
+            .container {
+                padding: 25px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bank System</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Accounts.html">Accounts</a>
+            <a href="#">Transfers</a>
+            <a href="Support.html">Support</a>
+            <a id="authLink" href="login.html">Login</a>
+            <a href="register.html" id="registerLink">Register</a>
+            <span id="welcomeUser" style="display:none; color:#ffd600; margin-left:10px;"></span>
+            <button id="signOutBtn" style="display:none; margin-left:10px;">Sign Out</button>
+        </nav>
+        <script src="wwwroot/js/navbar.js"></script>
+
+    </header>
+    <div class="container">
+        <h2>Welcome to Your Trusted Banking Partner</h2>
+        <p>
+            Manage your finances securely and efficiently with our modern banking system. Access your accounts, transfer funds, and get support—all in one place.
+        </p>
+        <div class="features">
+            <div class="feature">
+                <img src="https://img.icons8.com/ios-filled/50/1a237e/bank-building.png" alt="Accounts">
+                <h3>Account Management</h3>
+                <p>View balances, transaction history, and manage your personal or business accounts with ease.</p>
+            </div>
+            <div class="feature">
+                <img src="https://img.icons8.com/ios-filled/50/1a237e/money-transfer.png" alt="Transfers">
+                <h3>Secure Transfers</h3>
+                <p>Transfer money between accounts or to other banks quickly and securely with multi-factor authentication.</p>
+            </div>
+            <div class="feature">
+                <img src="https://img.icons8.com/ios-filled/50/1a237e/customer-support.png" alt="Support">
+                <h3>24/7 Support</h3>
+                <p>Our dedicated support team is available around the clock to assist you with any banking needs.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Bank System. All rights reserved.
+    </footer>
+</body>
+</html></div>

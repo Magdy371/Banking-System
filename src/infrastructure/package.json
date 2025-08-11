@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "scripts": {
+    "_comment": "concurrently \"node register-server.mjs\" \"node login-server.mjs\"",
+    "start": "node app-server.mjs"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-session": "^1.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
